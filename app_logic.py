@@ -1,4 +1,6 @@
-def play_game(hunam_first, sticks):
+from utils import human_turn, computer_turn
+
+def play_game(human_first, sticks):
     current_player=human_first
     while sticks>0:
         if current_player:
